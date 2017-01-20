@@ -1,15 +1,14 @@
-# D&D 5e LaTeX Template
+# 2017 Animal Physiology Overleaf Textbook Project
 
-This is an attempt at a D&D 5e LaTeX template. The color scheme is close to the original source books, as are the fonts. The fonts chosen are included by default in TeX Live.
+This is an attempt at generating a course-specific textbook as a crowd-source project in an Animal Physiology course at the University of Missouri.  It is based on a D&D 5e LaTeX template (see copyright information at the bottom of this file). The fonts chosen are included by default in TeX Live.
 
 The template compiles with pdflatex.
 
-![Preview](https://github.com/anoderay/DND-5e-LaTeX-Template/raw/master/scrot.png)
 
 
-### Installation
+### Installation of the core template
 
-Just clone the repo. From terminal:
+To install the original template, just clone the repo. From terminal:
 
 ```sh
 $ git clone https://github.com/anoderay/DND-5e-LaTeX-Template.git 5e-template
@@ -36,14 +35,6 @@ It's a bit unclear exactly what subset of features this module needs. As a gener
 
 Per default "bg-letter" and "bg-full" are loaded.
 
-### Todo's
-
- - Consider implementing more complex tables for monsters, etc.
- - Clean up the table-preset
- - Create more elegant solution for spacing before and after boxes (using \vspace is rather rigid when two boxes follow in a row)
- - Add subtitle option for boxes
- - Sort out box-decals when boxes break column or page
- - Look into adding the ability to add large images to the document. There are some documents made with InDesign out there that accomplish this quite well.
 
 
 ### Image Credit
